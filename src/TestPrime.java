@@ -11,7 +11,7 @@ public class TestPrime {
 	
 	public boolean isPrime(int test)
 	{
-		for (int i = 2; i < (int)(Math.sqrt(test)); i++)
+		for (int i = 2; i <= (int)(Math.sqrt(test)); i++)
 		{
 			if (test % i == 0)
 			{
@@ -23,7 +23,7 @@ public class TestPrime {
 	
 	public int findDivisor(int test)
 	{
-		for (int i = 2; i < (int)(Math.sqrt(test)); i++)
+		for (int i = 2; i <= (int)(Math.sqrt(test)); i++)
 		{
 			if (test % i == 0)
 			{
